@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix player</title>
+</head>
+<body>
+    <section class="reproductor">
+        <video id="video">
+            <source src="....." type="video/mp4"> 
+
+        </video>
+    </section>
+
+    <section class="controles">
+        <input type="range" id="progreso" value="0" min="0" max="100">
+        <section class="botones">
+            <div class="izquierda">
+        <button onclick="reproducirPausar()"></button>
+        <button onclick="retrasar()"></button>
+        <button onclick="adelantar()"></button> 
+        <span id="tiempo">00:00/00:00</span>       
+            </div>
+
+        </section>
+        <div class="izquierda">
+
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
