@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix player</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <section class="reproductor">
-        <video id="video">
-            <source src="....." type="video/mp4"> 
+    <div class="botones">
+        <h1>comentarios</h1>
+        <input type="text" id="comentario">
+        <button onclick="crearMensaje()">guardar</button>
+        <button onclick="eliminarMensaje()">Eliminar</button>
+    </div>
+    <div class="comentarios">
+        <section id="container"></section>
+    </div>
 
-        </video>
-    </section>
+    <script src="./index.js"></script>
 
-    <section class="controles">
-        <input type="range" id="progreso" value="0" min="0" max="100">
-        <section class="botones">
-            <div class="izquierda">
-        <button onclick="reproducirPausar()"></button>
-        <button onclick="retrasar()"></button>
-        <button onclick="adelantar()"></button> 
-        <span id="tiempo">00:00/00:00</span>       
-            </div>
-
-        </section>
-        <div class="izquierda">
-
-
-        </div>
-
-    </section>
-    
 </body>
+
 </html>
