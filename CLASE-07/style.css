@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0, 0.93);
+  font-family:"Share Tech Mono", monospace;;
+ 
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  flex-direction: column;
+   background-color: transparent
+}
+
+
+.titulo{
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h1{
+  color: #8786a48f;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+.copiar_contraseña{
+  width: 100%;
+  height: 80px;
+  background-color: #8786a452;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.copiar_contraseña p{
+  color:white;
+  font-size: 36px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.generador_contraseña{
+  width: 100%;
+  height: 400px;
+  background-color: #8786a452;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  gap: 20px;
+  padding: 20px;
+}
+.checkbox-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background-color: transparent;
+}
+
+
+label{
+  background-color: transparent;
+}
+
+.generador_contraseña button{
+  background-color: transparent;
+  color: rgb(90, 248, 23);
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid rgb(90, 248, 23);
+  font-size: 30px;
+}
+
+.stregth{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background-color: #00000087;
+  width: 100%;
+  height: 60px;
+
+}
+
+.stregth p, .stregth span{
+  background-color: transparent;
+}
+
+
+.barra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.barra-fill{
+  width: 20px;
+  height: 40px;
+  background-color: #00000087;
+  border: 1px solid white;
+}
+#num{
+  color: rgb(90, 248, 23);
+  background-color: transparent;
+  font-size: 30px;
+}
+
+
+#copy{
+ color: white;
+  width: 40px;
+  height: 40px;
+ background-color: transparent;
+}

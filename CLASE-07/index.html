@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Generador de contraseñas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="titulo">
+    <h1>Password Generator</h1>
+  </div>
+  <div class="copiar_contraseña">
+    <p>P4$5W0rD!</p>
+    <button id="copy">Copy</button>
+  </div>
+  <div class="generador_contraseña">
+    <div class="checkbox-wrapper">
+       <label for="longitud"> Character Length <span id="num">8</span></label>
+      <input type="range" id="longitud" min="1" max="17">
+    </div>
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="uppercase">
+      <label for="uppercase">Include Uppercase Letters </label>
+    </div>
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="lowercase">
+      <label for="lowercase">Include Lowercase Letters</label>
+    </div>
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="numbers">
+      <label for="numbers">Include Numbers</label>
+    </div>
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="symbols">
+      <label for="symbols">Include Symbols</label>
+    </div>
+    <div class="stregth"> 
+      <p>Strength: <span id="strength">Medium</span></p>
+      <div class="barra">
+        <div class="barra-fill"></div>
+        <div class="barra-fill"></div>
+        <div class="barra-fill"></div>
+        <div class="barra-fill"></div>
+      </div>
+    </div>
+     <button id="generate">Generate -></button>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
